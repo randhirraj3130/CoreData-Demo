@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Student" representedClassName="Student" syncable="YES" codeGenerationType="class">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="roll_number" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="school_name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="student_class" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="student_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="subject" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="rollNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="schoolName" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Subject" representedClassName="Subject" syncable="YES" codeGenerationType="class">
-        <attribute name="english" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="hindi" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="maths" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="english" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="hindi" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="maths" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="rollNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="science" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="social_science" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="student_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <relationship name="student_id_relation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Student" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Student" positionX="-214.2421875" positionY="13.7734375" width="128" height="45"/>
-        <element name="Subject" positionX="-54" positionY="18" width="128" height="165"/>
+        <element name="Student" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Subject" positionX="-54" positionY="18" width="128" height="105"/>
     </elements>
 </model>
